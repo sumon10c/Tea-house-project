@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tea House</title>
+    <!-- css style -->
+     <link rel="stylesheet" href="./style.css">
     <!-- Tailwain css -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!-- font -->
@@ -16,7 +18,7 @@
     />
     <!-- parent-div border-2 border-red-500 min-h-[200px] container max-auto -->
   </head>
-  <body>
+  <body class="manrope-font">
     <!-- Header part start hear -->
     <div
       class="min-h-[200px] max-w-[1200px] mx-auto flex flex-col md:flex-row justify-between items-center"
@@ -153,7 +155,7 @@
 
     <!-- Meet Our Super Clients -->
     <div class="parent-div max-w-full md:max-w-[1200px] h-[1300px] md:h-[500px] mx-auto flex mt-[50px] bg-gradient-to-r from-[#ff8938] to-[#ff0000] rounded-lg flex-col md:flex-row">
-      <div class="left-div  w-[50%] text-white flex justify-center items-center">
+      <div class="left-div  w-[50%] text-white flex justify-center items-center bg-[url(./images/bg_cup.png)] bg-no-repeat bg-bottom">
         <div class="ml-[50px]">
           <h1 class="text-[45px] font-bold">Meet Our Super <br> Clients</h1>
         <p class="font-[500] text-[16px] mt-8 mb-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
@@ -192,5 +194,58 @@
         <!-- md:w-[433px] h-[203px] w-[70vw] -->
       </div>
     </div>
+
+
+    <!-- News & Events -->
+
+
+    <!-- footer section -->
+     <div class="praent-div  mt-[100px] bg-[#ffe7e6] py-[60px]">
+      <div class="logo-div max-w-[1200px] mx-auto  flex justify-between items-center mt-[100px]">
+          <img src="./images/cup.png" alt="">
+          <div class="flex items-center">
+            <p class="mr-[20px] font-[500] text-[16px] text-[#777777]">Ready to get strated?</p>
+            <button class="bg-gradient-to-r from-[#ff8938] to-[#ff0000] text-xl text-white rounded-lg p-3">Get Started</button>
+          </div>
+      </div>
+
+      <div class="footer-info max-w-[1200px] mx-auto flex justify-between items-center mt-[80px] flex-col text-center md:text-left gap-[30px] md:flex-row">
+        <div class="">
+          <h1 class="font-[500] text-[25px]">Quick Links</h1>
+          <p class="mt-3 font-[500] text-[16px] text-[#777777]">Home</p>
+          <p class="mt-3 font-[500] text-[16px] text-[#777777]">About</p>
+          <p class="mt-3 font-[500] text-[16px] text-[#777777]">Insurance</p>
+          <p class="mt-3 font-[500] text-[16px] text-[#777777]">Privacy Policy</p>
+        </div>
+
+        <div class="">
+          <h1 class="font-[500] text-[25px]">Our Service</h1>
+          <p class="mt-3 font-[500] text-[16px] text-[#777777]">Life Insurance</p>
+          <p class="mt-3 font-[500] text-[16px] text-[#777777]">Car Insurance</p>
+          <p class="mt-3 font-[500] text-[16px] text-[#777777]">Health Insurance</p>
+          <p class="mt-3 font-[500] text-[16px] text-[#777777]">House Insurance</p>
+        </div>
+
+        <div class="">
+          <h1 class="font-[500] text-[25px]">Help</h1>
+          <p class="mt-3 font-[500] text-[16px] text-[#777777]">FAQs</p>
+          <p class="mt-3 font-[500] text-[16px] text-[#777777]">Contact Us</p>
+        </div>
+
+        <div class="">
+          <h1 class="font-[500] text-[25px] mt-5">Subscribe to our <br> newsletter</h1>
+          <input type="text" placeholder="Email address" class="border-b-1 outline-none pb-3 mt-5">
+          <button class="bg-gradient-to-r from-[#ff8938] to-[#ff0000] text-white h-[30px] w-[30px] rounded-full"><i class="fa-solid fa-angle-right"></i></button>
+          <div class="icon mt-5">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter ml-3"></i>
+            <i class="fa-brands fa-square-instagram ml-3"></i>
+          </div>
+        </div>
+
+      </div>
+
+      <p class="text-center font-[500] text-[16px] text-[#777777] mt-[70px]">© 2027 UIDesign.to - All rights reserved.</p>
+     </div>
   </body>
 </html>
